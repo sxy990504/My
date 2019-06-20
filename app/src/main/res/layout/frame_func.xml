@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/funcTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        tools:text="备忘录" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:text="今天你学习移动开发了吗"
+        tools:text="今天你学习移动开发了吗" />
+
+    <ImageView
+        android:id="@+id/iv"
+
+        android:layout_width="339dp"
+        android:layout_height="224dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:padding="10dp"
+        android:src="@drawable/sxc" />
+
+
+</LinearLayout>
